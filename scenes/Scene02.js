@@ -286,7 +286,7 @@ class Scene02 extends Phaser.Scene{
         });
 
 
-        pregador9 = this.physics.add.staticImage(9500,200,'pregadorQuebrado').setSize(220,50).setScale(0.8);
+        pregador9 = this.physics.add.staticImage(9500,90,'pregadorQuebrado').setSize(220,50).setScale(0.8);
         this.physics.add.collider(player, pregador9, () => {
             playernoChao = false;
         });
@@ -310,7 +310,7 @@ class Scene02 extends Phaser.Scene{
         });
 
 
-        pregador14 = this.physics.add.staticImage(10700,160,'pregadorQuebrado').setSize(220,50).setScale(0.8);
+        pregador14 = this.physics.add.staticImage(10700,90,'pregadorQuebrado').setSize(220,50).setScale(0.8);
         this.physics.add.collider(player, pregador14, () => {
             playernoChao = false;
         });
@@ -334,7 +334,7 @@ class Scene02 extends Phaser.Scene{
         });
 
 
-        pregador18 = this.physics.add.staticImage(11500,200,'pregadorQuebrado').setSize(220,50).setScale(0.8);
+        pregador18 = this.physics.add.staticImage(11500,100,'pregadorQuebrado').setSize(220,50).setScale(0.8);
         this.physics.add.collider(player, pregador18, () => {
             playernoChao = false;
         });
